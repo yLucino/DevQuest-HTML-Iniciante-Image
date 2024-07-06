@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #090b20d5;
+  color: white;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  width: 100%;
+  height: 100vh;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.container a img {
+  border: 5px solid #009c44;
+  border-radius: 20px;
+  transition: .2s;
+  box-shadow: 0 0 15px #009c44;
+}
+
+.container a img:hover {
+  border: 5px solid rgb(0, 68, 30);
+  box-shadow: none;
+  cursor: pointer;
+}
